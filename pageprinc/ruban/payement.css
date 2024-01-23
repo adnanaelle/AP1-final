@@ -1,0 +1,97 @@
+body{
+    background-color: rgb(52, 40, 36);
+}
+
+main {
+  font-family: Arial, sans-serif;
+  background-color: rgb(52, 40, 36);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("/cars/maserati/granturismo/redMaserati/bacground.jpeg");
+  background-size: cover;
+}
+  
+.container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+  
+form {
+  display: flex;
+  flex-direction: column;
+}
+  
+label {
+  margin-bottom: 5px;
+}
+  
+input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+  
+button {
+  padding: 10px;
+  background-color: rgb(0, 0, 0);
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+  
+button:hover {
+  background-color: rgb(192, 183, 135);
+}
+  
+h2 {
+  text-align: center;
+}
+
+header img{
+  width: 10%;
+  height: 10%;
+  display: flex;
+  justify-content: top;
+  float: left;
+}
+
+header{
+  background-color: rgb(0, 0, 0);
+  background-position: cover;
+}
+
+header a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  list-style: none;
+  font-size: 25px;
+    
+}
+
+header, header ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}  
+
+header ul li{
+  margin-right: 20px;
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 12px;
+  border: rgb(142, 128, 95) 1px solid;
+}
+  

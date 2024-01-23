@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulaire de Paiement</title>
+  <link rel="stylesheet" href="payement.css">
+</head>
+
+<body>
+
+  <header>
+    <img src="/logo.jpg" alt="">
+    <ul>
+        </li><li><a href="/pprinc/pageprinc.html" style="padding: 10px 20px;">Accueil</a>
+        </li><li><a href="/ruban/contact.html" style="padding: 10px 20px;">Contact</a>
+        <!-- </li><li><a href="/ruban/payement.html" style="padding: 10px 20px;">Page 1</a>
+        </li><li><a href="/Page-2.html" style="padding: 10px 20px;">Page 2</a> -->
+    </ul>
+  </header>
+
+  <main>
+    
+    <div class="container">
+      <form id="payment-form">
+        <h2>Formulaire de Paiement</h2>
+        <label for="card-number">Numéro de Carte</label>
+        <input type="text" id="card-number" placeholder="1234 5678 9012 3456">
+        
+        <label for="expiry">Date d'Expiration</label>
+        <input type="text" id="expiry" placeholder="MM/YY">
+        
+        <label for="cvc">CVC</label>
+        <input type="text" id="cvc" placeholder="123">
+        
+        <button type="submit">Payer</button>
+      </form>
+    </div>
+
+  </main>
+  
+  <script src="votre_script_de_paiement.js"></script>
+</body>
+</html>
+
+
